@@ -35,6 +35,9 @@ a {
   padding: 2%;
   width: 25%;
 }
+.bio-box-focus {
+  background-color: orange;
+}
 .bio-box h3 {
   font-size: 1.5em;
 }
