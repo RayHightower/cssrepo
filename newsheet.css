@@ -16,7 +16,7 @@ a {
 /* SOCIAL STYLES */
 .social-link {
   background: rgba(150, 150, 150, 0.5);
-  color: blue;
+  color: turquoise;
   display: inline-block;
   height: 36px;
 }
@@ -45,5 +45,5 @@ a {
   font-size: 1em;
 }
 .bio-copy a {
-  color: green;
+  color: orange;
 }
