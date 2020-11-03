@@ -1,6 +1,7 @@
 /* GLOBAL STYLES */
 h1 {
   font-size: 7vw;
+  font-family: Arial;
   margin-top: 0;
 }
 a {
@@ -24,6 +25,7 @@ a {
 /* BIO STYLES */
 .bio-wrapper {
   font-size: 24px;
+  font-family: Arial;
   height: 300px;
   overflow: scroll;
 }
