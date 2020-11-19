@@ -23,6 +23,15 @@ a {
   display: inline-block;
   height: 36px;
 }
+/* Animation Experiments */
+.drone-container .drone {
+  width: 120px;
+  height: 130px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
 
 /* BIO STYLES */
 .bio-wrapper {
