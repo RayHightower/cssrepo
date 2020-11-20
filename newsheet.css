@@ -24,13 +24,18 @@ a {
   height: 36px;
 }
 /* Animation Experiments */
-.drone-container .drone {
+.badge-container .badge {
   width: 120px;
   height: 130px;
   box-sizing: border-box;
   overflow: hidden;
   transform: translatey(0px);
   animation: float 3s ease-in-out infinite;
+}
+
+.badge-container .badge img {
+  width: 90%;
+  height: auto;
 }
 
 /* BIO STYLES */
@@ -59,4 +64,15 @@ a {
 }
 .bio-copy a {
   color: orange;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
