@@ -32,7 +32,7 @@ a {
   /* transform: translatey(0px); */
   /* transform: translatex(0px); */
   /* animation: float 3s ease-in-out infinite; */
-  animation: float 3s forwards infinite;
+  animation: float 5s forwards infinite;
 }
 
 .badge-container .badge img {
